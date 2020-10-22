@@ -1,0 +1,25 @@
+header{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap:;
+    background-image: url("../images/woodwall.jpg");
+    padding-bottom: 20px;
+    
+    
+}
+#logo{
+    background-image: url("../images/logo.jpg");
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+@font-face {
+    font-family: "HolidaysHomework";
+    src: url("../fonts/HolidaysHomework.ttf");
+}
+#headtitle{
+    font-family: "HolidaysHomework";
+       
+}
+
