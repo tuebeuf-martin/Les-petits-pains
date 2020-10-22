@@ -1,6 +1,10 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 body{
     background-color: #548981;
-    background-size: 130%;
 }
 #header{
     display: grid;
@@ -13,7 +17,7 @@ body{
     background-image: url("../images/logo.jpg");
     height: 110px;
     width: 110px;
-    margin-top: 30px;
+    margin-top: 15%;
     margin-left: 100%;
     border-radius: 25px;
 }
@@ -25,28 +29,50 @@ body{
     font-family: "HolidaysHomework";
     color: white;
     font-size: 60px;
+    margin-top: 10px;
 }
 footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     background-color: #A78267;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 135px;
+    height: 157px;
     width: 100%;
-    overflow: hidden
+    overflow: hidden;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    gap: 91px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-right: 48px;
 }
 #fb{
-    height: 90px;
-    width: 90px;
+    height: 75px;
+    width: 75px;
 }
 #insta{
-    height: 90px;
-    width: 90px;
+    height: 75px;
+    width: 75px;
 }
 #trip{
-    height: 90px;
-    width: 90px;
+    height: 75px;
+    width: 75px;
 }
+.cluf{
+    margin-top: 4%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+
 
