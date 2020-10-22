@@ -8,27 +8,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/stylesheet.css">
     </head>
+
+
     <body>
-        <div id="header"><img id="logo" src="assets/images/logo.jpg">
+
+        <!--Bannière d'entête-->
+        <div id="header">
+            <img id="logo" src="assets/images/logo.jpg">
             <h1 id="headtitle">Les Petits Pains</h1>
         </div>
-        <footer>
-            <div class="cluf">
-                <p>Politique de<br>confidentialité</p>
-                <p>Mentions légales</p>
-                <p>Conditions générales<br>d'utilisation</p>
-            </div>
-            <div class="social">
-                <div> 
-                    <img src="assets/images/facebook.png" id="fb">
+
+        <!--Container de la carte-->
+
+     <div id="container">
+
+         <!--Ligne de 4 blocs-->
+
+         <div class="card">
+             <!--Bloc de la carte des pains-->
+             <h3>Pain & Pain spéciaux</h3>
+             <img src="assets/images/pain.jpg" alt="" title="">
+         </div>
+         <div class="card">
+             <!--Bloc de la carte des viennoisseries-->
+             <h3>viennoiserie & Pâtisseries</h3>
+             <img src="assets/images/viennoiserie.jpg" alt="viennoiserie" title="viennoiserie">
+         </div>
+         <div class="card">
+             <!--Bloc de la formule-->
+             <h3>Formule Midi</h3>
+             <img src="assets/images/formule.jpg" alt="formule" title="formule">
+         </div>
+         <div class="card">
+             <!--Bloc de la commande-->
+             <h3>Commandes</h3>
+             <img src="assets/images/commande.jpg" alt="commande" title="commande">
+         </div>
+     </div>
+
+     <!--Carte et coordonnées-->
+     <div id="coordinate">
+         <div id="map"></div>
+         <p id="adress">Les petits pains<br>
+         10 Place Léon Meyer<br>
+         76600 Le Havre<br>
+         02.35.31.32.33<br>
+         contact@lespetitspains.fr
+        </p>
+     </div>
+     
+     
+     <!--Bas de page-->
+    <footer>
+
+        <!--Mentions légales-->
+                <div class="cluf">
+                    <p>Politique de<br>confidentialité</p>
+                    <p>Mentions légales</p>
+                    <p>Conditions générales<br>d'utilisation</p>
                 </div>
-                <div>
-                    <img src="assets/images/instagram.png" id="insta">
+    
+                <!--Réseaux sociaux-->
+                <div class="social">
+                    <div> 
+                        <img src="assets/images/facebook.png" id="fb">
+                    </div>
+
+                    <div>
+                        <img src="assets/images/instagram.png" id="insta">
+                    </div>
+
+                    <div>
+                        <img src="assets/images/tripadvisor.png" id="trip">
+                    </div>
+
                 </div>
-                <div>
-                    <img src="assets/images/tripadvisor.png" id="trip">
-                </div>
-            </div>
-        </footer>
+
+            </footer>
+            
     </body>
+
 </html>

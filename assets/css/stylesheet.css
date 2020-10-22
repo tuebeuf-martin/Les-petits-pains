@@ -6,6 +6,8 @@
 body{
     background-color: #548981;
 }
+
+/*Bannière d'entêye*/
 #header{
     display: grid;
     grid-template-columns: 100px 1fr;
@@ -13,6 +15,8 @@ body{
     background-image: url("../images/woodwall.jpg");
 
 }
+
+/*Logo*/
 #logo{
     background-image: url("../images/logo.jpg");
     height: 110px;
@@ -21,51 +25,106 @@ body{
     margin-left: 100%;
     border-radius: 25px;
 }
+
+/*Police d'entête*/
 @font-face {
     font-family: "HolidaysHomework";
     src: url("../fonts/HolidaysHomework.ttf");
 }
+
+/*Nom du commerce*/
 #headtitle{
     font-family: "HolidaysHomework";
     color: white;
     font-size: 60px;
     margin-top: 10px;
 }
+/*Proposition boulangerie*/
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.card {
+    height: 200px;
+    width: 250px;
+    margin-top: 5%;
+}
+
+.card h3 {
+    font-family: "HolidaysHomework";
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card img {
+    height: 150px;
+    width: auto;
+    border-radius: 10px 10px 10px 10px;
+    margin: 12px;
+}
+#coordinate{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+#adress{
+    font-size: 20px ;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-left: 2%;
+
+}
+#map{
+    height: 250px;
+    width: 250px;
+    border-radius: 25%;
+    background-image: url("../images/map.png");
+    margin-bottom: 1%;
+}
+/*Bas de page*/
 footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #A78267;
-    position: absolute;
     left: 0;
-    bottom: 0;
-    height: 157px;
+    height: 90px;
     width: 100%;
     overflow: hidden;
 }
+
+/*réseaux sociaux*/
 .social{
     display: flex;
     flex-direction: row;
     gap: 91px;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 1.5%;
     margin-right: 48px;
 }
 #fb{
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
 }
 #insta{
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
 }
 #trip{
-    height: 75px;
-    width: 75px;
+    height: 50px;
+    width: 50px;
 }
+
+
+/*Mentions légales*/
 .cluf{
-    margin-top: 4%;
-    height: 100%;
+    margin-top: 2%;
+    height: 70%;
     width: 50%;
     display: flex;
     justify-content: space-between;
