@@ -1,18 +1,21 @@
-header{
+body{
+    background-color: #548981;
+    background-size: 130%;
+}
+#header{
     display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-gap:;
+    grid-template-columns: 100px 1fr;
+    gap: 30%;
     background-image: url("../images/woodwall.jpg");
-    padding-bottom: 20px;
-    
-    
+
 }
 #logo{
     background-image: url("../images/logo.jpg");
-    height: 100px;
-    width: 100px;
+    height: 110px;
+    width: 110px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 100%;
+    border-radius: 25px;
 }
 @font-face {
     font-family: "HolidaysHomework";
@@ -20,6 +23,30 @@ header{
 }
 #headtitle{
     font-family: "HolidaysHomework";
-       
+    color: white;
+    font-size: 60px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #A78267;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 135px;
+    width: 100%;
+    overflow: hidden
+}
+#fb{
+    height: 90px;
+    width: 90px;
+}
+#insta{
+    height: 90px;
+    width: 90px;
+}
+#trip{
+    height: 90px;
+    width: 90px;
 }
 
